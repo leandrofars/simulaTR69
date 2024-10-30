@@ -1,0 +1,913 @@
+Parameter,Object,Writable,Value,Type
+InternetGatewayDevice.DeviceInfo,true,true,,
+InternetGatewayDevice.DeviceInfo.AdditionalSoftwareVersion,false,true,1.0.0,xsd:string
+InternetGatewayDevice.DeviceInfo.Description,false,true,Huawei WiFI Router,xsd:string
+InternetGatewayDevice.DeviceInfo.DeviceLog,false,true,"2024-10-30 12:06:56|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:56|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:56|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:53|System|Info|CWMP inform message: success
+2024-10-30 12:06:53|System|Info|CWMP Inform message: get actions
+2024-10-30 12:06:53|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:53|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:52|System|Info|CWMP inform message: success
+2024-10-30 12:06:52|System|Info|CWMP Inform message: get actions
+2024-10-30 12:06:52|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:52|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:29|System|Info|CWMP inform message: success
+2024-10-30 12:06:29|System|Info|CWMP inform message: period report
+2024-10-30 12:06:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:05:58|System|Info|CWMP inform message: success
+2024-10-30 12:05:58|System|Info|CWMP inform message: period report
+2024-10-30 12:05:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:05:27|System|Info|CWMP inform message: success
+2024-10-30 12:05:27|System|Info|CWMP inform message: period report
+2024-10-30 12:05:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:04:56|System|Info|CWMP inform message: success
+2024-10-30 12:04:56|System|Info|CWMP inform message: period report
+2024-10-30 12:04:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:04:25|System|Info|CWMP inform message: success
+2024-10-30 12:04:25|System|Info|CWMP inform message: period report
+2024-10-30 12:04:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:03:54|System|Info|CWMP inform message: success
+2024-10-30 12:03:54|System|Info|CWMP inform message: period report
+2024-10-30 12:03:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:03:23|System|Info|CWMP inform message: success
+2024-10-30 12:03:23|System|Info|CWMP inform message: period report
+2024-10-30 12:03:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:02:52|System|Info|CWMP inform message: success
+2024-10-30 12:02:52|System|Info|CWMP inform message: period report
+2024-10-30 12:02:52|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:02:21|System|Info|CWMP inform message: success
+2024-10-30 12:02:21|System|Info|CWMP inform message: period report
+2024-10-30 12:02:21|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:01:50|System|Info|CWMP inform message: success
+2024-10-30 12:01:50|System|Info|CWMP inform message: period report
+2024-10-30 12:01:50|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:01:19|System|Info|CWMP inform message: success
+2024-10-30 12:01:19|System|Info|CWMP inform message: period report
+2024-10-30 12:01:19|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:00:48|System|Info|CWMP inform message: success
+2024-10-30 12:00:48|System|Info|CWMP inform message: period report
+2024-10-30 12:00:48|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:00:17|System|Info|CWMP inform message: success
+2024-10-30 12:00:17|System|Info|CWMP inform message: period report
+2024-10-30 12:00:17|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:59:46|System|Info|CWMP inform message: success
+2024-10-30 11:59:46|System|Info|CWMP inform message: period report
+2024-10-30 11:59:46|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:59:15|System|Info|CWMP inform message: success
+2024-10-30 11:59:15|System|Info|CWMP inform message: period report
+2024-10-30 11:59:15|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:58:44|System|Info|CWMP inform message: success
+2024-10-30 11:58:44|System|Info|CWMP inform message: period report
+2024-10-30 11:58:44|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:58:13|System|Info|CWMP inform message: success
+2024-10-30 11:58:13|System|Info|CWMP inform message: period report
+2024-10-30 11:58:13|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:57:42|System|Info|CWMP inform message: success
+2024-10-30 11:57:42|System|Info|CWMP inform message: period report
+2024-10-30 11:57:42|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:57:11|System|Info|CWMP inform message: success
+2024-10-30 11:57:11|System|Info|CWMP inform message: period report
+2024-10-30 11:57:11|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:56:40|System|Info|CWMP inform message: success
+2024-10-30 11:56:40|System|Info|CWMP inform message: period report
+2024-10-30 11:56:40|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:56:09|System|Info|CWMP inform message: success
+2024-10-30 11:56:09|System|Info|CWMP inform message: period report
+2024-10-30 11:56:09|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:55:38|System|Info|CWMP inform message: success
+2024-10-30 11:55:38|System|Info|CWMP inform message: period report
+2024-10-30 11:55:38|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:55:07|System|Info|CWMP inform message: success
+2024-10-30 11:55:07|System|Info|CWMP inform message: period report
+2024-10-30 11:55:07|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:54:36|System|Info|CWMP inform message: success
+2024-10-30 11:54:36|System|Info|CWMP inform message: period report
+2024-10-30 11:54:36|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:54:05|System|Info|CWMP inform message: success
+2024-10-30 11:54:05|System|Info|CWMP inform message: period report
+2024-10-30 11:54:05|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:53:34|System|Info|CWMP inform message: success
+2024-10-30 11:53:34|System|Info|CWMP inform message: period report
+2024-10-30 11:53:34|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:53:03|System|Info|CWMP inform message: success
+2024-10-30 11:53:03|System|Info|CWMP inform message: period report
+2024-10-30 11:53:03|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:52:32|System|Info|CWMP inform message: success
+2024-10-30 11:52:32|System|Info|CWMP inform message: period report
+2024-10-30 11:52:32|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:52:01|System|Info|CWMP inform message: success
+2024-10-30 11:52:01|System|Info|CWMP inform message: period report
+2024-10-30 11:52:01|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:51:29|System|Info|CWMP inform message: success
+2024-10-30 11:51:29|System|Info|CWMP inform message: period report
+2024-10-30 11:51:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:50:59|System|Info|CWMP inform message: success
+2024-10-30 11:50:59|System|Info|CWMP inform message: period report
+2024-10-30 11:50:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:50:27|System|Info|CWMP inform message: success
+2024-10-30 11:50:27|System|Info|CWMP inform message: period report
+2024-10-30 11:50:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:49:56|System|Info|CWMP inform message: success
+2024-10-30 11:49:56|System|Info|CWMP inform message: period report
+2024-10-30 11:49:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:49:25|System|Info|CWMP inform message: success
+2024-10-30 11:49:25|System|Info|CWMP inform message: period report
+2024-10-30 11:49:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:48:54|System|Info|CWMP inform message: success
+2024-10-30 11:48:54|System|Info|CWMP inform message: period report
+2024-10-30 11:48:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:48:23|System|Info|CWMP inform message: success
+2024-10-30 11:48:23|System|Info|CWMP inform message: period report
+2024-10-30 11:48:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:47:52|System|Info|CWMP inform message: success
+2024-10-30 11:47:52|System|Info|CWMP inform message: period report
+2024-10-30 11:47:52|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:47:21|System|Info|CWMP inform message: success
+2024-10-30 11:47:21|System|Info|CWMP inform message: period report
+2024-10-30 11:47:21|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:46:50|System|Info|CWMP inform message: success
+2024-10-30 11:46:50|System|Info|CWMP inform message: period report
+2024-10-30 11:46:50|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:46:19|System|Info|CWMP inform message: success
+2024-10-30 11:46:19|System|Info|CWMP inform message: period report
+2024-10-30 11:46:19|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:45:48|System|Info|CWMP inform message: success
+2024-10-30 11:45:48|System|Info|CWMP inform message: period report
+2024-10-30 11:45:48|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:45:17|System|Info|CWMP inform message: success
+2024-10-30 11:45:17|System|Info|CWMP inform message: period report
+2024-10-30 11:45:17|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:44:46|System|Info|CWMP inform message: success
+2024-10-30 11:44:46|System|Info|CWMP inform message: period report
+2024-10-30 11:44:46|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:44:15|System|Info|CWMP inform message: success
+2024-10-30 11:44:15|System|Info|CWMP inform message: period report
+2024-10-30 11:44:15|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:43:44|System|Info|CWMP inform message: success
+2024-10-30 11:43:44|System|Info|CWMP inform message: period report
+2024-10-30 11:43:44|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:43:13|System|Info|CWMP inform message: success
+2024-10-30 11:43:13|System|Info|CWMP inform message: period report
+2024-10-30 11:43:13|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:42:42|System|Info|CWMP inform message: success
+2024-10-30 11:42:42|System|Info|CWMP inform message: period report
+2024-10-30 11:42:42|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:42:11|System|Info|CWMP inform message: success
+2024-10-30 11:42:11|System|Info|CWMP inform message: period report
+2024-10-30 11:42:11|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:41:40|System|Info|CWMP inform message: success
+2024-10-30 11:41:40|System|Info|CWMP inform message: period report
+2024-10-30 11:41:40|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:41:09|System|Info|CWMP inform message: success
+2024-10-30 11:41:09|System|Info|CWMP inform message: period report
+2024-10-30 11:41:09|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:40:38|System|Info|CWMP inform message: success
+2024-10-30 11:40:38|System|Info|CWMP inform message: period report
+2024-10-30 11:40:38|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:40:07|System|Info|CWMP inform message: success
+2024-10-30 11:40:07|System|Info|CWMP inform message: period report
+2024-10-30 11:40:07|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:39:36|System|Info|CWMP inform message: success
+2024-10-30 11:39:36|System|Info|CWMP inform message: period report
+2024-10-30 11:39:36|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:39:05|System|Info|CWMP inform message: success
+2024-10-30 11:39:05|System|Info|CWMP inform message: period report
+2024-10-30 11:39:05|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:38:34|System|Info|CWMP inform message: success
+2024-10-30 11:38:34|System|Info|CWMP inform message: period report
+2024-10-30 11:38:34|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:38:03|System|Info|CWMP inform message: success
+2024-10-30 11:38:03|System|Info|CWMP inform message: period report
+2024-10-30 11:38:03|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:37:32|System|Info|CWMP inform message: success
+2024-10-30 11:37:32|System|Info|CWMP inform message: period report
+2024-10-30 11:37:32|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:37:01|System|Info|CWMP inform message: success
+2024-10-30 11:37:01|System|Info|CWMP inform message: period report
+2024-10-30 11:37:01|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:36:30|System|Info|CWMP inform message: success
+2024-10-30 11:36:30|System|Info|CWMP inform message: period report
+2024-10-30 11:36:30|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:35:59|System|Info|CWMP inform message: success
+2024-10-30 11:35:59|System|Info|CWMP inform message: period report
+2024-10-30 11:35:59|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:35:28|System|Info|CWMP inform message: success
+2024-10-30 11:35:28|System|Info|CWMP inform message: period report
+2024-10-30 11:35:28|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:34:57|System|Info|CWMP inform message: success
+2024-10-30 11:34:57|System|Info|CWMP inform message: period report
+2024-10-30 11:34:57|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:34:26|System|Info|CWMP inform message: success
+2024-10-30 11:34:26|System|Info|CWMP inform message: period report
+2024-10-30 11:34:26|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:33:55|System|Info|CWMP inform message: success
+2024-10-30 11:33:55|System|Info|CWMP inform message: period report
+2024-10-30 11:33:55|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:33:24|System|Info|CWMP inform message: success
+2024-10-30 11:33:24|System|Info|CWMP inform message: period report
+2024-10-30 11:33:24|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:32:53|System|Info|CWMP inform message: success
+2024-10-30 11:32:53|System|Info|CWMP inform message: period report
+2024-10-30 11:32:53|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:32:22|System|Info|CWMP inform message: success
+2024-10-30 11:32:22|System|Info|CWMP inform message: period report
+2024-10-30 11:32:22|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:31:51|System|Info|CWMP inform message: success
+2024-10-30 11:31:51|System|Info|CWMP inform message: period report
+2024-10-30 11:31:51|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:31:20|System|Info|CWMP inform message: success
+2024-10-30 11:31:20|System|Info|CWMP inform message: period report
+2024-10-30 11:31:20|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:30:49|System|Info|CWMP inform message: success
+2024-10-30 11:30:49|System|Info|CWMP inform message: period report
+2024-10-30 11:30:49|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:30:18|System|Info|CWMP inform message: success
+2024-10-30 11:30:18|System|Info|CWMP inform message: period report
+2024-10-30 11:30:18|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:29:47|System|Info|CWMP inform message: success
+2024-10-30 11:29:47|System|Info|CWMP inform message: period report
+2024-10-30 11:29:47|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:29:16|System|Info|CWMP inform message: success
+2024-10-30 11:29:16|System|Info|CWMP inform message: period report
+2024-10-30 11:29:16|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:28:45|System|Info|CWMP inform message: success
+2024-10-30 11:28:45|System|Info|CWMP inform message: period report
+2024-10-30 11:28:45|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:28:14|System|Info|CWMP inform message: success
+2024-10-30 11:28:14|System|Info|CWMP inform message: period report
+2024-10-30 11:28:14|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:27:43|System|Info|CWMP inform message: success
+2024-10-30 11:27:43|System|Info|CWMP inform message: period report
+2024-10-30 11:27:43|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:27:12|System|Info|CWMP inform message: success
+2024-10-30 11:27:12|System|Info|CWMP inform message: period report
+2024-10-30 11:27:12|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:26:41|System|Info|CWMP inform message: success
+2024-10-30 11:26:41|System|Info|CWMP inform message: period report
+2024-10-30 11:26:41|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:26:10|System|Info|CWMP inform message: success
+2024-10-30 11:26:10|System|Info|CWMP inform message: period report
+2024-10-30 11:26:10|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:25:39|System|Info|CWMP inform message: success
+2024-10-30 11:25:39|System|Info|CWMP inform message: period report
+2024-10-30 11:25:39|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:25:08|System|Info|CWMP inform message: success
+2024-10-30 11:25:08|System|Info|CWMP inform message: period report
+2024-10-30 11:25:08|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:24:37|System|Info|CWMP inform message: success
+2024-10-30 11:24:37|System|Info|CWMP inform message: period report
+2024-10-30 11:24:37|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:24:06|System|Info|CWMP inform message: success
+2024-10-30 11:24:06|System|Info|CWMP inform message: period report
+2024-10-30 11:24:06|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:23:35|System|Info|CWMP inform message: success
+2024-10-30 11:23:35|System|Info|CWMP inform message: period report
+2024-10-30 11:23:35|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:23:04|System|Info|CWMP inform message: success
+2024-10-30 11:23:04|System|Info|CWMP inform message: period report
+2024-10-30 11:23:04|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:22:33|System|Info|CWMP inform message: success
+2024-10-30 11:22:33|System|Info|CWMP inform message: period report
+2024-10-30 11:22:33|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:22:02|System|Info|CWMP inform message: success
+2024-10-30 11:22:02|System|Info|CWMP inform message: period report
+2024-10-30 11:22:02|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:21:31|System|Info|CWMP inform message: success
+2024-10-30 11:21:31|System|Info|CWMP inform message: period report
+2024-10-30 11:21:31|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:21:00|System|Info|CWMP inform message: success
+2024-10-30 11:21:00|System|Info|CWMP inform message: period report
+2024-10-30 11:21:00|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:20:29|System|Info|CWMP inform message: success
+2024-10-30 11:20:29|System|Info|CWMP inform message: period report
+2024-10-30 11:20:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:19:58|System|Info|CWMP inform message: success
+2024-10-30 11:19:58|System|Info|CWMP inform message: period report
+2024-10-30 11:19:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:19:27|System|Info|CWMP inform message: success
+2024-10-30 11:19:27|System|Info|CWMP inform message: period report
+2024-10-30 11:19:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:18:56|System|Info|CWMP inform message: success
+2024-10-30 11:18:56|System|Info|CWMP inform message: period report
+2024-10-30 11:18:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:18:25|System|Info|CWMP inform message: success
+2024-10-30 11:18:25|System|Info|CWMP inform message: period report
+2024-10-30 11:18:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:17:54|System|Info|CWMP inform message: success
+2024-10-30 11:17:54|System|Info|CWMP inform message: period report
+2024-10-30 11:17:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:17:23|System|Info|CWMP inform message: success
+2024-10-30 11:17:23|System|Info|CWMP inform message: period report
+2024-10-30 11:17:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:16:52|System|Info|CWMP inform message: success
+2024-10-30 11:16:52|System|Info|CWMP inform message: period report
+2024-10-30 11:09:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:07|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 11:09:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:05|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:11:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:11:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:22|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:22|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:18|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:12|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:07|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:05|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:39|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:09:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:33|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:56|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:55|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:54|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:54|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:00|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:58|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:31|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:29|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:07|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:24:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:33|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:24:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:00|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:57|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:31|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:29|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:39:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:32|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:39:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:22|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:20|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:54|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:55:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:52|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:55:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:51|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:25|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:23|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+",xsd:string
+InternetGatewayDevice.DeviceInfo.HardwareVersion,false,true,VER.A,xsd:string
+InternetGatewayDevice.DeviceInfo.Manufacturer,false,true,"Huawei Technologies Co., Ltd.",xsd:string
+InternetGatewayDevice.DeviceInfo.ManufacturerOUI,false,true,00E0FC,xsd:string
+InternetGatewayDevice.DeviceInfo.ModelName,false,true,WS7001-40,xsd:string
+InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion,false,true,,xsd:string
+InternetGatewayDevice.DeviceInfo.ProductClass,false,true,Huawei,xsd:string
+InternetGatewayDevice.DeviceInfo.ProductType,false,true,WS7001-40,xsd:string
+InternetGatewayDevice.DeviceInfo.ProvisioningCode,false,true,,xsd:string
+InternetGatewayDevice.DeviceInfo.SerialNumber,false,true,VMXQU21B06601401,xsd:string
+InternetGatewayDevice.DeviceInfo.SoftwareVersion,false,true,2.0.0.322(SP1C947),xsd:string
+InternetGatewayDevice.DeviceInfo.SpecVersion,false,true,1.0,xsd:string
+InternetGatewayDevice.DeviceInfo.UpTime,false,true,609166,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics,true,true,,
+InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime,false,true,14,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.DataBlockSize,false,true,64,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState,false,true,Complete,xsd:string
+InternetGatewayDevice.IPPingDiagnostics.DSCP,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.FailureCount,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.Host,false,true,cloudfare.com,xsd:string
+InternetGatewayDevice.IPPingDiagnostics.Interface,false,true,,xsd:string
+InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime,false,true,21,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime,false,true,13,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions,false,true,20,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.SuccessCount,false,true,20,xsd:unsignedInt
+InternetGatewayDevice.IPPingDiagnostics.Timeout,false,true,20000,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.AddressSource,false,true,STATIC,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.HostName,false,true,lenovo-worker1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.IPAddress,false,true,192.168.3.4,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LastAccessTime,false,true,13,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.MACAddress,false,true,00:E0:4C:68:15:14,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.HostName,false,true,060bb4f2dd2179917ebbc078afcaac3,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.IPAddress,false,true,192.168.3.2,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.LastAccessTime,false,true,496,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.MACAddress,false,true,F8:AF:05:25:32:89,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.VendorClassID,false,true,HUAWEI:router:WS7001-40:0782:16,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.HostName,false,true,060bb4f2dd2179917ebbc078afcaac3,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.IPAddress,false,true,192.168.3.3,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.LastAccessTime,false,true,498,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.MACAddress,false,true,F8:AF:05:25:32:88,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.3.VendorClassID,false,true,HUAWEI:router:WS7001-40:0782:16,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.Active,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.HostName,false,true,060bb4f2dd2179917ebbc078afcaac3,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.IPAddress,false,true,192.168.3.5,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.LastAccessTime,false,true,17,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.LeaseTimeRemaining,false,true,82054,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.MACAddress,false,true,F8:AF:05:25:32:87,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.4.VendorClassID,false,true,HUAWEI:router:WS7001-40:0782,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.HostName,false,true,iPhone,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.IPAddress,false,true,192.168.3.6,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.LastAccessTime,false,true,202940,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.MACAddress,false,true,2A:B0:F6:D1:AF:70,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.5.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.HostName,false,true,Watch,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.InterfaceType,false,true,802.11,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.IPAddress,false,true,192.168.3.7,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.LastAccessTime,false,true,200045,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.WLANConfiguration.2,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.MACAddress,false,true,5E:4A:B6:72:AA:C6,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.6.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.HostName,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.IPAddress,false,true,192.168.3.8,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.LastAccessTime,false,true,608190,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.LeaseTimeRemaining,false,true,84363,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.MACAddress,false,true,4A:15:D2:14:CC:90,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.7.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.Active,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.HostName,false,true,MacBookPro,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.IPAddress,false,true,192.168.3.9,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.LastAccessTime,false,true,177322,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.LeaseTimeRemaining,false,true,0,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.MACAddress,false,true,0A:55:DC:53:ED:C3,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.8.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9,true,true,,
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.Active,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.AddressSource,false,true,DHCP,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.HostName,false,true,dell-worker2,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.InterfaceType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.IPAddress,false,true,192.168.3.10,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.LastAccessTime,false,true,12156,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.Layer2Interface,false,true,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.LeaseTimeRemaining,false,true,82143,xsd:int
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.MACAddress,false,true,8C:04:BA:FC:F7:0A,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.Host.9.VendorClassID,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.Hosts.HostNumberOfEntries,false,true,9,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,true,true,,
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress,false,true,F8:AF:05:25:5B:A2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Name,false,true,eth0.2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status,false,true,Up,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2,true,true,,
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddress,false,true,F8:AF:05:25:5B:A2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Name,false,true,eth0.3,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status,false,true,NoLink,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3,true,true,,
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MACAddress,false,true,F8:AF:05:25:5B:A2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Name,false,true,eth0.4,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Status,false,true,NoLink,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4,true,true,,
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MACAddress,false,true,F8:AF:05:25:5B:A2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Name,false,true,eth0.5,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Status,false,true,NoLink,xsd:string
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries,false,true,4,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement,true,true,,
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime,false,true,86400,xsd:int
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers,false,true,"192.168.3.1,192.168.3.1",xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1,true,true,,
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress,false,true,192.168.3.1,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask,false,true,255.255.255.0,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries,false,true,1,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters,false,true,192.168.3.1,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MACAddress,false,true,F8:AF:05:25:5B:A2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress,false,true,192.168.3.254,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress,false,true,192.168.3.2,xsd:string
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.StaticDnsServers,false,true,"192.168.3.1,192.168.3.1",xsd:string
+InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries,false,true,9,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoChannelEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType,false,true,11i,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BSSID,false,true,F8:AF:05:25:5B:A8,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Channel,false,true,1,xsd:int
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ChannelsInUse,false,true,1,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Name,false,true,wl1,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID,false,true,HUAWEI-teste,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard,false,true,b/g/n,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsReceived,false,true,3504275,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status,false,true,Up,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalAssociations,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived,false,true,2549826774,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent,false,true,1818,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsReceived,false,true,4982076,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsSent,false,true,18,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.AutoChannelEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BeaconType,false,true,11i,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BSSID,false,true,F8:AF:05:25:5B:AC,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Channel,false,true,149,xsd:int
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.ChannelsInUse,false,true,149,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Name,false,true,wl0,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1.KeyPassphrase,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSID,false,true,HUAWEI-teste,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Standard,false,true,a/n/ac/ax,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats,true,true,,
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsSent,false,true,259952,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Status,false,true,Up,xsd:string
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalAssociations,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesReceived,false,true,37565613,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesSent,false,true,458077083,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsReceived,false,true,122512,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsSent,false,true,494597,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WMMEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.2,true,true,,
+InternetGatewayDevice.LANDevice.2.Hosts,true,true,,
+InternetGatewayDevice.LANDevice.2.Hosts.HostNumberOfEntries,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.LANEthernetInterfaceNumberOfEntries,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement,true,true,,
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DHCPLeaseTime,false,true,86400,xsd:int
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DHCPServerEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DNSServers,false,true,"192.168.155.1,192.168.155.1",xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterface.1,true,true,,
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress,false,true,192.168.155.1,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask,false,true,255.255.255.0,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterfaceNumberOfEntries,false,true,1,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPRouters,false,true,192.168.155.1,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MACAddress,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MaxAddress,false,true,192.168.155.254,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MinAddress,false,true,192.168.155.2,xsd:string
+InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.StaticDnsServers,false,true,"192.168.1.1,192.168.1.1",xsd:string
+InternetGatewayDevice.LANDevice.2.LANWLANConfigurationNumberOfEntries,false,true,2,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.AutoChannelEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.BeaconType,false,true,Basic,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.BSSID,false,true,F8:AF:05:25:5B:AA,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Channel,false,true,1,xsd:int
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.ChannelsInUse,false,true,1,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Enable,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Name,false,true,wl1.1,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.PreSharedKey.1,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.SSID,false,true,HUAWEI-teste_Guest,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Standard,false,true,b/g/n,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.DiscardPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.DiscardPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.ErrorsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.ErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Status,false,true,Disabled,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalAssociations,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalBytesReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalBytesSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.WMMEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.AutoChannelEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.BeaconType,false,true,Basic,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.BSSID,false,true,F8:AF:05:25:5B:B3,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Channel,false,true,149,xsd:int
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.ChannelsInUse,false,true,149,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Enable,false,true,0,xsd:boolean
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Name,false,true,wl0.1,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.PreSharedKey.1,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.PreSharedKey.1.KeyPassphrase,false,true,,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.SSID,false,true,Mobile WiFi,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Standard,false,true,a/n/ac/ax,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats,true,true,,
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.DiscardPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.DiscardPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.ErrorsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.ErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Status,false,true,Disabled,xsd:string
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalAssociations,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalBytesReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalBytesSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.WMMEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.Layer2Bridging.Bridge.1,true,true,,
+InternetGatewayDevice.Layer2Bridging.Bridge.1.X_HUAWEI_DNSMode,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.Layer2Bridging.Bridge.2,true,true,,
+InternetGatewayDevice.Layer2Bridging.Bridge.2.X_HUAWEI_DNSMode,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.ManagementServer,true,true,,
+InternetGatewayDevice.ManagementServer.ConnectionRequestPassword,false,true,,xsd:string
+InternetGatewayDevice.ManagementServer.ConnectionRequestURL,false,true,http://192.168.4.153:7547/8s02s4wwokw9f,xsd:string
+InternetGatewayDevice.ManagementServer.ConnectionRequestUsername,false,true,df7fsd8fds4fds5vds,xsd:string
+InternetGatewayDevice.ManagementServer.EnableCWMP,false,true,1,xsd:boolean
+InternetGatewayDevice.ManagementServer.ParameterKey,false,true,LC13095b47767a8b6d5695,xsd:string
+InternetGatewayDevice.ManagementServer.Password,false,true,,xsd:string
+InternetGatewayDevice.ManagementServer.PeriodicInformEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.ManagementServer.PeriodicInformInterval,false,true,31,xsd:unsignedInt
+InternetGatewayDevice.ManagementServer.PeriodicInformTime,false,true,,xsd:dateTime
+InternetGatewayDevice.ManagementServer.URL,false,true,http://192.168.4.200:9292/acs,xsd:string
+InternetGatewayDevice.ManagementServer.Username,false,true,df7fsd8fds4fds5vds,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_ALGAbility,true,true,,
+InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.FTPEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.H323Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.RTSPEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.SIPEnable,false,true,1,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_IPv6,true,true,,
+InternetGatewayDevice.Services.X_HUAWEI_IPv6.Enable,false,true,0,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess,true,true,,
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.Enable,false,true,0,xsd:boolean
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress1,false,true,,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress2,false,true,,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress3,false,true,,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress4,false,true,,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress5,false,true,,xsd:string
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength1,false,true,32,xsd:unsignedInt
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength2,false,true,32,xsd:unsignedInt
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength3,false,true,32,xsd:unsignedInt
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength4,false,true,32,xsd:unsignedInt
+InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength5,false,true,32,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics,true,true,,
+InternetGatewayDevice.TraceRouteDiagnostics.DataBlockSize,false,true,38,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.DiagnosticsState,false,true,None,xsd:string
+InternetGatewayDevice.TraceRouteDiagnostics.DSCP,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.Host,false,true,,xsd:string
+InternetGatewayDevice.TraceRouteDiagnostics.Interface,false,true,,xsd:string
+InternetGatewayDevice.TraceRouteDiagnostics.MaxHopCount,false,true,30,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.NumberOfTries,false,true,3,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.ResponseTime,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.RouteHopsNumberOfEntries,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.TraceRouteDiagnostics.Timeout,false,true,5000,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1,true,true,,
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig,true,true,,
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.1,true,true,,
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.1.ActiveConnectionDeviceContainer,false,true,InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.1.ActiveConnectionServiceID,false,true,InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.2,true,true,,
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.2.ActiveConnectionDeviceContainer,false,true,InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.2.ActiveConnectionServiceID,false,true,InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate,false,true,100000000,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate,false,true,100000000,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.MaximumActiveConnections,false,true,8,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.NumberOfActiveConnections,false,true,1,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus,false,true,Up,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived,false,true,841373723,xsd:any
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent,false,true,298168306,xsd:any
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived,false,true,3389368,xsd:any
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent,false,true,2014254,xsd:any
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessProvider,false,true,HUAWEI,xsd:string
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType,false,true,Ethernet,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1,true,true,,
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1,true,true,,
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.AddressingType,false,true,DHCP,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.AutoDisconnectTime,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionStatus,false,true,Disconnected,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionTrigger,false,true,AlwaysOn,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionType,false,true,IP_Routed,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DefaultGateway,false,true,,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSEnabled,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSOverrideAllowed,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSServers,false,true,,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ExternalIPAddress,false,true,,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.LastConnectionError,false,true,ERROR_UNKNOWN,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MACAddress,false,true,f8:af:05:25:5b:a4,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MACAddressOverride,false,true,0,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MaxMTUSize,false,true,1500,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Name,false,true,Other_R_ETH3,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.NATEnabled,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PossibleConnectionTypes,false,true,"IP_Routed,IP_Bridged",xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Reset,false,true,0,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats,true,true,,
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetBytesReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetBytesSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetDiscardPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetDiscardPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetErrorsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetPacketsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.SubnetMask,false,true,,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Uptime,false,true,609178,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2,true,true,,
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.AddressingType,false,true,DHCP,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.AutoDisconnectTime,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionStatus,false,true,Connected,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionTrigger,false,true,AlwaysOn,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionType,false,true,IP_Routed,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DefaultGateway,false,true,192.168.4.1,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSEnabled,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSOverrideAllowed,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSServers,false,true,"8.8.8.8,8.8.4.4",xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Enable,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ExternalIPAddress,false,true,192.168.4.153,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.LastConnectionError,false,true,ERROR_NONE,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MACAddress,false,true,f8:af:05:25:5b:a3,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MACAddressOverride,false,true,0,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MaxMTUSize,false,true,1500,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Name,false,true,TR069_INTERNET_R_ETH3,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.NATEnabled,false,true,1,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.PossibleConnectionTypes,false,true,,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Reset,false,true,0,xsd:boolean
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats,true,true,,
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetBytesReceived,false,true,841373723,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetBytesSent,false,true,298168306,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetDiscardPacketsReceived,false,true,131982,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetDiscardPacketsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetErrorsReceived,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetErrorsSent,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetPacketsReceived,false,true,3389368,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetPacketsSent,false,true,2014254,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.SubnetMask,false,true,255.255.255.0,xsd:string
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Uptime,false,true,609156,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries,false,true,2,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries,false,true,0,xsd:unsignedInt
+InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries,false,true,1,xsd:unsignedInt

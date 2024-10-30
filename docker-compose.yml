@@ -1,0 +1,37 @@
+services:
+
+  BM632w:
+    image: ghcr.io/localhots/simulatr69:latest
+    container_name: bm632w
+    volumes:
+      - ./datamodel-BM632w.csv:/app/datamodel.csv
+      - sim_BM632w_state:/state
+    network_mode: host
+    environment:
+      SERIAL_NUMBER: G3000E-9799109101
+      DATAMODEL_PATH: /app/datamodel.csv
+      STATE_PATH: /state/state.json
+      LOG_LEVEL: debug
+      ACS_URL: http://localhost:9292/acs
+      API_PORT: 7547
+      
+  AX2:
+    image: ghcr.io/localhots/simulatr69:latest
+    container_name: ax2
+    volumes:
+      - ./datamodel-ax2.csv:/app/datamodel.csv
+      - sim_AX2_state:/state
+    network_mode: host
+    environment:
+      SERIAL_NUMBER: HUAWNFYC-35454645
+      DATAMODEL_PATH: /app/datamodel.csv
+      STATE_PATH: /state/state.json
+      LOG_LEVEL: debug
+      ACS_URL: http://localhost:9292/acs
+      API_PORT: 7548
+
+volumes:
+  sim_BM632w_state:
+    external: false
+  sim_AX2_state:
+    external: false

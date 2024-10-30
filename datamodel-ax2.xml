@@ -1,0 +1,1948 @@
+<cwmp:GetParameterValuesResponse>
+      <ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[361]">
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.Manufacturer</Name>
+          <Value xsi:type="xsd:string">Huawei Technologies Co., Ltd.</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ManufacturerOUI</Name>
+          <Value xsi:type="xsd:string">00E0FC</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ModelName</Name>
+          <Value xsi:type="xsd:string">WS7001-40</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.Description</Name>
+          <Value xsi:type="xsd:string">Huawei WiFI Router</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ProductClass</Name>
+          <Value xsi:type="xsd:string">Huawei</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ProductType</Name>
+          <Value xsi:type="xsd:string">WS7001-40</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.SerialNumber</Name>
+          <Value xsi:type="xsd:string">VMXQU21B06601401</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.HardwareVersion</Name>
+          <Value xsi:type="xsd:string">VER.A</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.SoftwareVersion</Name>
+          <Value xsi:type="xsd:string">2.0.0.322(SP1C947)</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.AdditionalSoftwareVersion</Name>
+          <Value xsi:type="xsd:string">1.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.SpecVersion</Name>
+          <Value xsi:type="xsd:string">1.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.ProvisioningCode</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.UpTime</Name>
+          <Value xsi:type="xsd:unsignedInt">609166</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.DeviceInfo.DeviceLog</Name>
+          <Value xsi:type="xsd:string">2024-10-30 12:06:56|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:56|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:56|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:53|System|Info|CWMP inform message: success
+2024-10-30 12:06:53|System|Info|CWMP Inform message: get actions
+2024-10-30 12:06:53|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:53|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:52|System|Info|CWMP inform message: success
+2024-10-30 12:06:52|System|Info|CWMP Inform message: get actions
+2024-10-30 12:06:52|System|Info|CWMP inform message: acs connection ok
+2024-10-30 12:06:52|System|Info|CWMP inform message: event: 6 CONNECTION REQUEST
+2024-10-30 12:06:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 12:06:29|System|Info|CWMP inform message: success
+2024-10-30 12:06:29|System|Info|CWMP inform message: period report
+2024-10-30 12:06:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:05:58|System|Info|CWMP inform message: success
+2024-10-30 12:05:58|System|Info|CWMP inform message: period report
+2024-10-30 12:05:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:05:27|System|Info|CWMP inform message: success
+2024-10-30 12:05:27|System|Info|CWMP inform message: period report
+2024-10-30 12:05:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:04:56|System|Info|CWMP inform message: success
+2024-10-30 12:04:56|System|Info|CWMP inform message: period report
+2024-10-30 12:04:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:04:25|System|Info|CWMP inform message: success
+2024-10-30 12:04:25|System|Info|CWMP inform message: period report
+2024-10-30 12:04:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:03:54|System|Info|CWMP inform message: success
+2024-10-30 12:03:54|System|Info|CWMP inform message: period report
+2024-10-30 12:03:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:03:23|System|Info|CWMP inform message: success
+2024-10-30 12:03:23|System|Info|CWMP inform message: period report
+2024-10-30 12:03:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:02:52|System|Info|CWMP inform message: success
+2024-10-30 12:02:52|System|Info|CWMP inform message: period report
+2024-10-30 12:02:52|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:02:21|System|Info|CWMP inform message: success
+2024-10-30 12:02:21|System|Info|CWMP inform message: period report
+2024-10-30 12:02:21|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:01:50|System|Info|CWMP inform message: success
+2024-10-30 12:01:50|System|Info|CWMP inform message: period report
+2024-10-30 12:01:50|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:01:19|System|Info|CWMP inform message: success
+2024-10-30 12:01:19|System|Info|CWMP inform message: period report
+2024-10-30 12:01:19|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:00:48|System|Info|CWMP inform message: success
+2024-10-30 12:00:48|System|Info|CWMP inform message: period report
+2024-10-30 12:00:48|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 12:00:17|System|Info|CWMP inform message: success
+2024-10-30 12:00:17|System|Info|CWMP inform message: period report
+2024-10-30 12:00:17|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:59:46|System|Info|CWMP inform message: success
+2024-10-30 11:59:46|System|Info|CWMP inform message: period report
+2024-10-30 11:59:46|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:59:15|System|Info|CWMP inform message: success
+2024-10-30 11:59:15|System|Info|CWMP inform message: period report
+2024-10-30 11:59:15|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:58:44|System|Info|CWMP inform message: success
+2024-10-30 11:58:44|System|Info|CWMP inform message: period report
+2024-10-30 11:58:44|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:58:13|System|Info|CWMP inform message: success
+2024-10-30 11:58:13|System|Info|CWMP inform message: period report
+2024-10-30 11:58:13|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:57:42|System|Info|CWMP inform message: success
+2024-10-30 11:57:42|System|Info|CWMP inform message: period report
+2024-10-30 11:57:42|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:57:11|System|Info|CWMP inform message: success
+2024-10-30 11:57:11|System|Info|CWMP inform message: period report
+2024-10-30 11:57:11|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:56:40|System|Info|CWMP inform message: success
+2024-10-30 11:56:40|System|Info|CWMP inform message: period report
+2024-10-30 11:56:40|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:56:09|System|Info|CWMP inform message: success
+2024-10-30 11:56:09|System|Info|CWMP inform message: period report
+2024-10-30 11:56:09|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:55:38|System|Info|CWMP inform message: success
+2024-10-30 11:55:38|System|Info|CWMP inform message: period report
+2024-10-30 11:55:38|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:55:07|System|Info|CWMP inform message: success
+2024-10-30 11:55:07|System|Info|CWMP inform message: period report
+2024-10-30 11:55:07|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:54:36|System|Info|CWMP inform message: success
+2024-10-30 11:54:36|System|Info|CWMP inform message: period report
+2024-10-30 11:54:36|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:54:05|System|Info|CWMP inform message: success
+2024-10-30 11:54:05|System|Info|CWMP inform message: period report
+2024-10-30 11:54:05|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:53:34|System|Info|CWMP inform message: success
+2024-10-30 11:53:34|System|Info|CWMP inform message: period report
+2024-10-30 11:53:34|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:53:03|System|Info|CWMP inform message: success
+2024-10-30 11:53:03|System|Info|CWMP inform message: period report
+2024-10-30 11:53:03|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:52:32|System|Info|CWMP inform message: success
+2024-10-30 11:52:32|System|Info|CWMP inform message: period report
+2024-10-30 11:52:32|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:52:01|System|Info|CWMP inform message: success
+2024-10-30 11:52:01|System|Info|CWMP inform message: period report
+2024-10-30 11:52:01|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:51:29|System|Info|CWMP inform message: success
+2024-10-30 11:51:29|System|Info|CWMP inform message: period report
+2024-10-30 11:51:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:50:59|System|Info|CWMP inform message: success
+2024-10-30 11:50:59|System|Info|CWMP inform message: period report
+2024-10-30 11:50:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:50:27|System|Info|CWMP inform message: success
+2024-10-30 11:50:27|System|Info|CWMP inform message: period report
+2024-10-30 11:50:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:49:56|System|Info|CWMP inform message: success
+2024-10-30 11:49:56|System|Info|CWMP inform message: period report
+2024-10-30 11:49:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:49:25|System|Info|CWMP inform message: success
+2024-10-30 11:49:25|System|Info|CWMP inform message: period report
+2024-10-30 11:49:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:48:54|System|Info|CWMP inform message: success
+2024-10-30 11:48:54|System|Info|CWMP inform message: period report
+2024-10-30 11:48:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:48:23|System|Info|CWMP inform message: success
+2024-10-30 11:48:23|System|Info|CWMP inform message: period report
+2024-10-30 11:48:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:47:52|System|Info|CWMP inform message: success
+2024-10-30 11:47:52|System|Info|CWMP inform message: period report
+2024-10-30 11:47:52|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:47:21|System|Info|CWMP inform message: success
+2024-10-30 11:47:21|System|Info|CWMP inform message: period report
+2024-10-30 11:47:21|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:46:50|System|Info|CWMP inform message: success
+2024-10-30 11:46:50|System|Info|CWMP inform message: period report
+2024-10-30 11:46:50|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:46:19|System|Info|CWMP inform message: success
+2024-10-30 11:46:19|System|Info|CWMP inform message: period report
+2024-10-30 11:46:19|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:45:48|System|Info|CWMP inform message: success
+2024-10-30 11:45:48|System|Info|CWMP inform message: period report
+2024-10-30 11:45:48|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:45:17|System|Info|CWMP inform message: success
+2024-10-30 11:45:17|System|Info|CWMP inform message: period report
+2024-10-30 11:45:17|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:44:46|System|Info|CWMP inform message: success
+2024-10-30 11:44:46|System|Info|CWMP inform message: period report
+2024-10-30 11:44:46|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:44:15|System|Info|CWMP inform message: success
+2024-10-30 11:44:15|System|Info|CWMP inform message: period report
+2024-10-30 11:44:15|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:43:44|System|Info|CWMP inform message: success
+2024-10-30 11:43:44|System|Info|CWMP inform message: period report
+2024-10-30 11:43:44|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:43:13|System|Info|CWMP inform message: success
+2024-10-30 11:43:13|System|Info|CWMP inform message: period report
+2024-10-30 11:43:13|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:42:42|System|Info|CWMP inform message: success
+2024-10-30 11:42:42|System|Info|CWMP inform message: period report
+2024-10-30 11:42:42|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:42:11|System|Info|CWMP inform message: success
+2024-10-30 11:42:11|System|Info|CWMP inform message: period report
+2024-10-30 11:42:11|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:41:40|System|Info|CWMP inform message: success
+2024-10-30 11:41:40|System|Info|CWMP inform message: period report
+2024-10-30 11:41:40|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:41:09|System|Info|CWMP inform message: success
+2024-10-30 11:41:09|System|Info|CWMP inform message: period report
+2024-10-30 11:41:09|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:40:38|System|Info|CWMP inform message: success
+2024-10-30 11:40:38|System|Info|CWMP inform message: period report
+2024-10-30 11:40:38|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:40:07|System|Info|CWMP inform message: success
+2024-10-30 11:40:07|System|Info|CWMP inform message: period report
+2024-10-30 11:40:07|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:39:36|System|Info|CWMP inform message: success
+2024-10-30 11:39:36|System|Info|CWMP inform message: period report
+2024-10-30 11:39:36|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:39:05|System|Info|CWMP inform message: success
+2024-10-30 11:39:05|System|Info|CWMP inform message: period report
+2024-10-30 11:39:05|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:38:34|System|Info|CWMP inform message: success
+2024-10-30 11:38:34|System|Info|CWMP inform message: period report
+2024-10-30 11:38:34|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:38:03|System|Info|CWMP inform message: success
+2024-10-30 11:38:03|System|Info|CWMP inform message: period report
+2024-10-30 11:38:03|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:37:32|System|Info|CWMP inform message: success
+2024-10-30 11:37:32|System|Info|CWMP inform message: period report
+2024-10-30 11:37:32|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:37:01|System|Info|CWMP inform message: success
+2024-10-30 11:37:01|System|Info|CWMP inform message: period report
+2024-10-30 11:37:01|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:36:30|System|Info|CWMP inform message: success
+2024-10-30 11:36:30|System|Info|CWMP inform message: period report
+2024-10-30 11:36:30|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:35:59|System|Info|CWMP inform message: success
+2024-10-30 11:35:59|System|Info|CWMP inform message: period report
+2024-10-30 11:35:59|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:35:28|System|Info|CWMP inform message: success
+2024-10-30 11:35:28|System|Info|CWMP inform message: period report
+2024-10-30 11:35:28|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:34:57|System|Info|CWMP inform message: success
+2024-10-30 11:34:57|System|Info|CWMP inform message: period report
+2024-10-30 11:34:57|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:34:26|System|Info|CWMP inform message: success
+2024-10-30 11:34:26|System|Info|CWMP inform message: period report
+2024-10-30 11:34:26|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:33:55|System|Info|CWMP inform message: success
+2024-10-30 11:33:55|System|Info|CWMP inform message: period report
+2024-10-30 11:33:55|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:33:24|System|Info|CWMP inform message: success
+2024-10-30 11:33:24|System|Info|CWMP inform message: period report
+2024-10-30 11:33:24|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:32:53|System|Info|CWMP inform message: success
+2024-10-30 11:32:53|System|Info|CWMP inform message: period report
+2024-10-30 11:32:53|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:32:22|System|Info|CWMP inform message: success
+2024-10-30 11:32:22|System|Info|CWMP inform message: period report
+2024-10-30 11:32:22|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:31:51|System|Info|CWMP inform message: success
+2024-10-30 11:31:51|System|Info|CWMP inform message: period report
+2024-10-30 11:31:51|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:31:20|System|Info|CWMP inform message: success
+2024-10-30 11:31:20|System|Info|CWMP inform message: period report
+2024-10-30 11:31:20|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:30:49|System|Info|CWMP inform message: success
+2024-10-30 11:30:49|System|Info|CWMP inform message: period report
+2024-10-30 11:30:49|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:30:18|System|Info|CWMP inform message: success
+2024-10-30 11:30:18|System|Info|CWMP inform message: period report
+2024-10-30 11:30:18|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:29:47|System|Info|CWMP inform message: success
+2024-10-30 11:29:47|System|Info|CWMP inform message: period report
+2024-10-30 11:29:47|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:29:16|System|Info|CWMP inform message: success
+2024-10-30 11:29:16|System|Info|CWMP inform message: period report
+2024-10-30 11:29:16|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:28:45|System|Info|CWMP inform message: success
+2024-10-30 11:28:45|System|Info|CWMP inform message: period report
+2024-10-30 11:28:45|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:28:14|System|Info|CWMP inform message: success
+2024-10-30 11:28:14|System|Info|CWMP inform message: period report
+2024-10-30 11:28:14|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:27:43|System|Info|CWMP inform message: success
+2024-10-30 11:27:43|System|Info|CWMP inform message: period report
+2024-10-30 11:27:43|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:27:12|System|Info|CWMP inform message: success
+2024-10-30 11:27:12|System|Info|CWMP inform message: period report
+2024-10-30 11:27:12|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:26:41|System|Info|CWMP inform message: success
+2024-10-30 11:26:41|System|Info|CWMP inform message: period report
+2024-10-30 11:26:41|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:26:10|System|Info|CWMP inform message: success
+2024-10-30 11:26:10|System|Info|CWMP inform message: period report
+2024-10-30 11:26:10|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:25:39|System|Info|CWMP inform message: success
+2024-10-30 11:25:39|System|Info|CWMP inform message: period report
+2024-10-30 11:25:39|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:25:08|System|Info|CWMP inform message: success
+2024-10-30 11:25:08|System|Info|CWMP inform message: period report
+2024-10-30 11:25:08|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:24:37|System|Info|CWMP inform message: success
+2024-10-30 11:24:37|System|Info|CWMP inform message: period report
+2024-10-30 11:24:37|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:24:06|System|Info|CWMP inform message: success
+2024-10-30 11:24:06|System|Info|CWMP inform message: period report
+2024-10-30 11:24:06|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:23:35|System|Info|CWMP inform message: success
+2024-10-30 11:23:35|System|Info|CWMP inform message: period report
+2024-10-30 11:23:35|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:23:04|System|Info|CWMP inform message: success
+2024-10-30 11:23:04|System|Info|CWMP inform message: period report
+2024-10-30 11:23:04|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:22:33|System|Info|CWMP inform message: success
+2024-10-30 11:22:33|System|Info|CWMP inform message: period report
+2024-10-30 11:22:33|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:22:02|System|Info|CWMP inform message: success
+2024-10-30 11:22:02|System|Info|CWMP inform message: period report
+2024-10-30 11:22:02|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:21:31|System|Info|CWMP inform message: success
+2024-10-30 11:21:31|System|Info|CWMP inform message: period report
+2024-10-30 11:21:31|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:21:00|System|Info|CWMP inform message: success
+2024-10-30 11:21:00|System|Info|CWMP inform message: period report
+2024-10-30 11:21:00|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:20:29|System|Info|CWMP inform message: success
+2024-10-30 11:20:29|System|Info|CWMP inform message: period report
+2024-10-30 11:20:29|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:19:58|System|Info|CWMP inform message: success
+2024-10-30 11:19:58|System|Info|CWMP inform message: period report
+2024-10-30 11:19:58|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:19:27|System|Info|CWMP inform message: success
+2024-10-30 11:19:27|System|Info|CWMP inform message: period report
+2024-10-30 11:19:27|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:18:56|System|Info|CWMP inform message: success
+2024-10-30 11:18:56|System|Info|CWMP inform message: period report
+2024-10-30 11:18:56|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:18:25|System|Info|CWMP inform message: success
+2024-10-30 11:18:25|System|Info|CWMP inform message: period report
+2024-10-30 11:18:25|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:17:54|System|Info|CWMP inform message: success
+2024-10-30 11:17:54|System|Info|CWMP inform message: period report
+2024-10-30 11:17:54|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:17:23|System|Info|CWMP inform message: success
+2024-10-30 11:17:23|System|Info|CWMP inform message: period report
+2024-10-30 11:17:23|System|Info|CWMP inform message: event: 2 PERIODIC
+2024-10-30 11:16:52|System|Info|CWMP inform message: success
+2024-10-30 11:16:52|System|Info|CWMP inform message: period report
+2024-10-30 11:09:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:12|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:07|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 11:09:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:05|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 11:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:25:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:11:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:11:53|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 10:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:22|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:22|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:18|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:17|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:16|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:12|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:11|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:07|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:54:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:05|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:05|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:54:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:39|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:10:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:09:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:33|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 08:09:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:56|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:55|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:54|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:54|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:56:18|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:26:00|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:58|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:31|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:29|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:07|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:25:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:24:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:33|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:24:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 07:24:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:03|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:41:00|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:58|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:57|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:35|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:34|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:31|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:29|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:06|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:03|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:01|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:40:01|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:38|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:35|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:39:33|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:32|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:39:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:32|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:10|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:06|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:04|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 06:39:04|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:26|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:22|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:20|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:56:20|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:57|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:54|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:55:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:52|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:55:52|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:51|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:29|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:25|User|Notice|User ACS(***.***.*.***) Diagnose ping
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:23|User|Notice|User ACS(***.***.*.***) modified IPPingDiagnostics
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+2024-10-30 05:55:23|User|Notice|ACS (192.***.*.200) make a connection request to the CPE successful
+</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.EnableCWMP</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.URL</Name>
+          <Value xsi:type="xsd:string">http://192.168.4.200:9292/acs</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.Username</Name>
+          <Value xsi:type="xsd:string">df7fsd8fds4fds5vds</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.Password</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformInterval</Name>
+          <Value xsi:type="xsd:unsignedInt">31</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ParameterKey</Name>
+          <Value xsi:type="xsd:string">LC13095b47767a8b6d5695</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestURL</Name>
+          <Value xsi:type="xsd:string">http://192.168.4.153:7547/8s02s4wwokw9f</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestUsername</Name>
+          <Value xsi:type="xsd:string">df7fsd8fds4fds5vds</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.ConnectionRequestPassword</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.ManagementServer.PeriodicInformTime</Name>
+          <Value xsi:type="xsd:dateTime"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState</Name>
+          <Value xsi:type="xsd:string">Complete</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.Interface</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.Host</Name>
+          <Value xsi:type="xsd:string">cloudfare.com</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions</Name>
+          <Value xsi:type="xsd:unsignedInt">20</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.Timeout</Name>
+          <Value xsi:type="xsd:unsignedInt">20000</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.DataBlockSize</Name>
+          <Value xsi:type="xsd:unsignedInt">64</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.DSCP</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.SuccessCount</Name>
+          <Value xsi:type="xsd:unsignedInt">20</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.FailureCount</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime</Name>
+          <Value xsi:type="xsd:unsignedInt">14</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime</Name>
+          <Value xsi:type="xsd:unsignedInt">13</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime</Name>
+          <Value xsi:type="xsd:unsignedInt">21</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.DiagnosticsState</Name>
+          <Value xsi:type="xsd:string">None</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.Interface</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.Host</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.NumberOfTries</Name>
+          <Value xsi:type="xsd:unsignedInt">3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.Timeout</Name>
+          <Value xsi:type="xsd:unsignedInt">5000</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.DataBlockSize</Name>
+          <Value xsi:type="xsd:unsignedInt">38</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.DSCP</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.MaxHopCount</Name>
+          <Value xsi:type="xsd:unsignedInt">30</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.ResponseTime</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.TraceRouteDiagnostics.RouteHopsNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">9</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status</Name>
+          <Value xsi:type="xsd:string">Up</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Name</Name>
+          <Value xsi:type="xsd:string">wl1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BSSID</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A8</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Channel</Name>
+          <Value xsi:type="xsd:int">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoChannelEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ChannelsInUse</Name>
+          <Value xsi:type="xsd:string">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID</Name>
+          <Value xsi:type="xsd:string">HUAWEI-teste</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType</Name>
+          <Value xsi:type="xsd:string">11i</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard</Name>
+          <Value xsi:type="xsd:string">b/g/n</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">1818</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">2549826774</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">18</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">4982076</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalAssociations</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">3504275</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Status</Name>
+          <Value xsi:type="xsd:string">Up</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Name</Name>
+          <Value xsi:type="xsd:string">wl0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BSSID</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:AC</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Channel</Name>
+          <Value xsi:type="xsd:int">149</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.AutoChannelEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.ChannelsInUse</Name>
+          <Value xsi:type="xsd:string">149</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSID</Name>
+          <Value xsi:type="xsd:string">HUAWEI-teste</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BeaconType</Name>
+          <Value xsi:type="xsd:string">11i</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Standard</Name>
+          <Value xsi:type="xsd:string">a/n/ac/ax</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WMMEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">458077083</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">37565613</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">494597</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">122512</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalAssociations</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1.KeyPassphrase</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">259952</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.HostNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">9</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.AddressSource</Name>
+          <Value xsi:type="xsd:string">STATIC</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">13</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.MACAddress</Name>
+          <Value xsi:type="xsd:string">00:E0:4C:68:15:14</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.HostName</Name>
+          <Value xsi:type="xsd:string">lenovo-worker1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">496</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:32:89</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.VendorClassID</Name>
+          <Value xsi:type="xsd:string">HUAWEI:router:WS7001-40:0782:16</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.HostName</Name>
+          <Value xsi:type="xsd:string">060bb4f2dd2179917ebbc078afcaac3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">498</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:32:88</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.VendorClassID</Name>
+          <Value xsi:type="xsd:string">HUAWEI:router:WS7001-40:0782:16</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.HostName</Name>
+          <Value xsi:type="xsd:string">060bb4f2dd2179917ebbc078afcaac3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.3.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.5</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">82054</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">17</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:32:87</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.VendorClassID</Name>
+          <Value xsi:type="xsd:string">HUAWEI:router:WS7001-40:0782</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.HostName</Name>
+          <Value xsi:type="xsd:string">060bb4f2dd2179917ebbc078afcaac3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.4.Active</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.6</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">202940</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.MACAddress</Name>
+          <Value xsi:type="xsd:string">2A:B0:F6:D1:AF:70</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.HostName</Name>
+          <Value xsi:type="xsd:string">iPhone</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.5.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.7</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">200045</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.MACAddress</Name>
+          <Value xsi:type="xsd:string">5E:4A:B6:72:AA:C6</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.WLANConfiguration.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.HostName</Name>
+          <Value xsi:type="xsd:string">Watch</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.InterfaceType</Name>
+          <Value xsi:type="xsd:string">802.11</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.6.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.8</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">84363</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">608190</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.MACAddress</Name>
+          <Value xsi:type="xsd:string">4A:15:D2:14:CC:90</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.HostName</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.7.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.9</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">177322</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.MACAddress</Name>
+          <Value xsi:type="xsd:string">0A:55:DC:53:ED:C3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.HostName</Name>
+          <Value xsi:type="xsd:string">MacBookPro</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.8.Active</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.10</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.AddressSource</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.LeaseTimeRemaining</Name>
+          <Value xsi:type="xsd:int">82143</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.LastAccessTime</Name>
+          <Value xsi:type="xsd:unsignedInt">12156</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.MACAddress</Name>
+          <Value xsi:type="xsd:string">8C:04:BA:FC:F7:0A</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.Layer2Interface</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.VendorClassID</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.HostName</Name>
+          <Value xsi:type="xsd:string">dell-worker2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.InterfaceType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.Hosts.Host.9.Active</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.254</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers</Name>
+          <Value xsi:type="xsd:string">192.168.3.1,192.168.3.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.StaticDnsServers</Name>
+          <Value xsi:type="xsd:string">192.168.3.1,192.168.3.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters</Name>
+          <Value xsi:type="xsd:string">192.168.3.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime</Name>
+          <Value xsi:type="xsd:int">86400</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.3.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask</Name>
+          <Value xsi:type="xsd:string">255.255.255.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status</Name>
+          <Value xsi:type="xsd:string">Up</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Name</Name>
+          <Value xsi:type="xsd:string">eth0.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status</Name>
+          <Value xsi:type="xsd:string">NoLink</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Name</Name>
+          <Value xsi:type="xsd:string">eth0.3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Status</Name>
+          <Value xsi:type="xsd:string">NoLink</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Name</Name>
+          <Value xsi:type="xsd:string">eth0.4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Status</Name>
+          <Value xsi:type="xsd:string">NoLink</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Name</Name>
+          <Value xsi:type="xsd:string">eth0.5</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MACAddress</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:A2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANEthernetInterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANWLANConfigurationNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Enable</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Status</Name>
+          <Value xsi:type="xsd:string">Disabled</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Name</Name>
+          <Value xsi:type="xsd:string">wl1.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.BSSID</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:AA</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Channel</Name>
+          <Value xsi:type="xsd:int">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.AutoChannelEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.ChannelsInUse</Name>
+          <Value xsi:type="xsd:string">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.SSID</Name>
+          <Value xsi:type="xsd:string">HUAWEI-teste_Guest</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.BeaconType</Name>
+          <Value xsi:type="xsd:string">Basic</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Standard</Name>
+          <Value xsi:type="xsd:string">b/g/n</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.WMMEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.TotalAssociations</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.ErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.ErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.DiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.1.Stats.DiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Enable</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Status</Name>
+          <Value xsi:type="xsd:string">Disabled</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Name</Name>
+          <Value xsi:type="xsd:string">wl0.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.BSSID</Name>
+          <Value xsi:type="xsd:string">F8:AF:05:25:5B:B3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Channel</Name>
+          <Value xsi:type="xsd:int">149</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.AutoChannelEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.ChannelsInUse</Name>
+          <Value xsi:type="xsd:string">149</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.SSID</Name>
+          <Value xsi:type="xsd:string">Mobile WiFi</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.BeaconType</Name>
+          <Value xsi:type="xsd:string">Basic</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Standard</Name>
+          <Value xsi:type="xsd:string">a/n/ac/ax</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.WMMEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.TotalAssociations</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.PreSharedKey.1.KeyPassphrase</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.ErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.ErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.DiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.WLANConfiguration.2.Stats.DiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.Hosts.HostNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MACAddress</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DHCPServerEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MinAddress</Name>
+          <Value xsi:type="xsd:string">192.168.155.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.MaxAddress</Name>
+          <Value xsi:type="xsd:string">192.168.155.254</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DNSServers</Name>
+          <Value xsi:type="xsd:string">192.168.155.1,192.168.155.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.StaticDnsServers</Name>
+          <Value xsi:type="xsd:string">192.168.1.1,192.168.1.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPRouters</Name>
+          <Value xsi:type="xsd:string">192.168.155.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.DHCPLeaseTime</Name>
+          <Value xsi:type="xsd:int">86400</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.155.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.LANDevice.2.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask</Name>
+          <Value xsi:type="xsd:string">255.255.255.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType</Name>
+          <Value xsi:type="xsd:string">Ethernet</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate</Name>
+          <Value xsi:type="xsd:unsignedInt">100000000</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate</Name>
+          <Value xsi:type="xsd:unsignedInt">100000000</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus</Name>
+          <Value xsi:type="xsd:string">Up</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessProvider</Name>
+          <Value xsi:type="xsd:string">HUAWEI</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent</Name>
+          <Value xsi:type="xsd:any">298168306</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived</Name>
+          <Value xsi:type="xsd:any">841373723</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent</Name>
+          <Value xsi:type="xsd:any">2014254</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived</Name>
+          <Value xsi:type="xsd:any">3389368</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.MaximumActiveConnections</Name>
+          <Value xsi:type="xsd:unsignedInt">8</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.NumberOfActiveConnections</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.1.ActiveConnectionDeviceContainer</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.1.ActiveConnectionServiceID</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.2.ActiveConnectionDeviceContainer</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Connection.2.ActiveConnectionServiceID</Name>
+          <Value xsi:type="xsd:string">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Reset</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionStatus</Name>
+          <Value xsi:type="xsd:string">Disconnected</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PossibleConnectionTypes</Name>
+          <Value xsi:type="xsd:string">IP_Routed,IP_Bridged</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionType</Name>
+          <Value xsi:type="xsd:string">IP_Routed</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Name</Name>
+          <Value xsi:type="xsd:string">Other_R_ETH3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Uptime</Name>
+          <Value xsi:type="xsd:unsignedInt">609178</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.LastConnectionError</Name>
+          <Value xsi:type="xsd:string">ERROR_UNKNOWN</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.AutoDisconnectTime</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.NATEnabled</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.AddressingType</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ExternalIPAddress</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.SubnetMask</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DefaultGateway</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSEnabled</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSOverrideAllowed</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.DNSServers</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MaxMTUSize</Name>
+          <Value xsi:type="xsd:unsignedInt">1500</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MACAddress</Name>
+          <Value xsi:type="xsd:string">f8:af:05:25:5b:a4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.MACAddressOverride</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.ConnectionTrigger</Name>
+          <Value xsi:type="xsd:string">AlwaysOn</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetDiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.Stats.EthernetDiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Reset</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionStatus</Name>
+          <Value xsi:type="xsd:string">Connected</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.PossibleConnectionTypes</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionType</Name>
+          <Value xsi:type="xsd:string">IP_Routed</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Name</Name>
+          <Value xsi:type="xsd:string">TR069_INTERNET_R_ETH3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Uptime</Name>
+          <Value xsi:type="xsd:unsignedInt">609156</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.LastConnectionError</Name>
+          <Value xsi:type="xsd:string">ERROR_NONE</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.AutoDisconnectTime</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.NATEnabled</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.AddressingType</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ExternalIPAddress</Name>
+          <Value xsi:type="xsd:string">192.168.4.153</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.SubnetMask</Name>
+          <Value xsi:type="xsd:string">255.255.255.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DefaultGateway</Name>
+          <Value xsi:type="xsd:string">192.168.4.1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSEnabled</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSOverrideAllowed</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.DNSServers</Name>
+          <Value xsi:type="xsd:string">8.8.8.8,8.8.4.4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MaxMTUSize</Name>
+          <Value xsi:type="xsd:unsignedInt">1500</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MACAddress</Name>
+          <Value xsi:type="xsd:string">f8:af:05:25:5b:a3</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.MACAddressOverride</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.ConnectionTrigger</Name>
+          <Value xsi:type="xsd:string">AlwaysOn</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetBytesSent</Name>
+          <Value xsi:type="xsd:unsignedInt">298168306</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetBytesReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">841373723</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">2014254</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">3389368</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetErrorsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetErrorsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetDiscardPacketsSent</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.Stats.EthernetDiscardPacketsReceived</Name>
+          <Value xsi:type="xsd:unsignedInt">131982</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Layer2Bridging.Bridge.1.X_HUAWEI_DNSMode</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Layer2Bridging.Bridge.2.X_HUAWEI_DNSMode</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.Enable</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress1</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress2</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress3</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress4</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.IPAddress5</Name>
+          <Value xsi:type="xsd:string"/>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength1</Name>
+          <Value xsi:type="xsd:unsignedInt">32</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength2</Name>
+          <Value xsi:type="xsd:unsignedInt">32</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength3</Name>
+          <Value xsi:type="xsd:unsignedInt">32</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength4</Name>
+          <Value xsi:type="xsd:unsignedInt">32</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_WANRemoteAccess.MaskLength5</Name>
+          <Value xsi:type="xsd:unsignedInt">32</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_IPv6.Enable</Name>
+          <Value xsi:type="xsd:boolean">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.H323Enable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.SIPEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.RTSPEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>InternetGatewayDevice.Services.X_HUAWEI_ALGAbility.FTPEnable</Name>
+          <Value xsi:type="xsd:boolean">1</Value>
+        </ParameterValueStruct>
+      </ParameterList>
+</cwmp:GetParameterValuesResponse>
