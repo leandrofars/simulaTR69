@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"log/slog"
 	"net/http"
 	"os"
 	"os/signal"
@@ -44,7 +45,7 @@ func main() {
 	for i := 0; i < cfg.SimNumber; i++ {
 		wg.Add(1)
 
-		log.Info().Str("file", cfg.StateFilePath).Msg("Loading state")
+		log.Debug().Str("file", cfg.StateFilePath).Msg("Loading state")
 		state, err := datamodel.LoadState(cfg.StateFilePath)
 		if err != nil {
 			log.Fatal().Err(err).Msg("Failed to load state")
@@ -57,21 +58,21 @@ func main() {
 		}
 
 		id := dm.DeviceID()
-		log.Info().
+		log.Debug().
 			Str("manufacturer", id.Manufacturer).
 			Str("oui", id.OUI).
 			Str("product_class", id.ProductClass).
 			Str("serial_number", id.SerialNumber).
 			Msg("Simulating device")
 
-		srv := simulator.New(dm, simulator.Config.ConnectionRequestPort+uint16(i))
+		srv := simulator.New(dm, simulator.Config.ConnectionRequestPort+uint16(i), simulator.Config.ConnReqHost)
 		go func() {
 			// defer srv.Stop(ctx)
 
 			// FIXME: something's off with error checking here
 			// nolint:errorlint
 			if err := srv.Start(ctx); err != nil && err != http.ErrServerClosed {
-				log.Fatal().Err(err).Msg("Failed to start server")
+				slog.Error("Failed to start simulator", "error", err)
 			}
 
 			<-ctx.Done()

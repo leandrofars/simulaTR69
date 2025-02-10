@@ -22,13 +22,14 @@ import (
 
 // Simulator is a TR-069 device simulator.
 type Simulator struct {
-	serverPort uint16
-	server     server
-	dm         *datamodel.DataModel
-	cookies    http.CookieJar
-	startedAt  time.Time
-	envelopeID uint64
-	metrics    *metrics.Metrics
+	serverPort   uint16
+	serverCrHost string
+	server       server
+	dm           *datamodel.DataModel
+	cookies      http.CookieJar
+	startedAt    time.Time
+	envelopeID   uint64
+	metrics      *metrics.Metrics
 
 	pendingEvents        chan string
 	pendingRequests      chan func(*rpc.EnvelopeEncoder)
@@ -41,7 +42,7 @@ type Simulator struct {
 var errServiceUnavailable = errors.New("service unavailable")
 
 // New creates a new simulator instance.
-func New(dm *datamodel.DataModel, connectionRequestPort uint16) *Simulator {
+func New(dm *datamodel.DataModel, connectionRequestPort uint16, connectionRequestHost string) *Simulator {
 	jar, _ := cookiejar.New(nil)
 	return &Simulator{
 		server:               newNoopServer(),
@@ -54,11 +55,12 @@ func New(dm *datamodel.DataModel, connectionRequestPort uint16) *Simulator {
 		stop:                 make(chan struct{}),
 		tasks:                make(chan taskFn, 5),
 		serverPort:           connectionRequestPort,
+		serverCrHost:         connectionRequestHost,
 	}
 }
 
 func NewWithMetrics(dm *datamodel.DataModel, m *metrics.Metrics) *Simulator {
-	s := New(dm, Config.ConnectionRequestPort)
+	s := New(dm, Config.ConnectionRequestPort, Config.ConnReqHost)
 	s.metrics = m
 	return s
 }
@@ -66,16 +68,20 @@ func NewWithMetrics(dm *datamodel.DataModel, m *metrics.Metrics) *Simulator {
 // Start starts the simulator and initiates an inform session.
 func (s *Simulator) Start(ctx context.Context) error {
 	if Config.ConnReqEnableHTTP {
-		srv, err := newHTTPServer(s.handleConnectionRequest, s.serverPort)
+		srv, err := newHTTPServer(s.handleConnectionRequest)
 		if err != nil {
 			return fmt.Errorf("start connection request server: %w", err)
 		}
 		s.server = srv
-		log.Info().Str("server_url", s.server.url()).Msg("Started connection request server")
+		log.Debug().Str("server_url", s.server.url()).Msg("Started connection request server")
 	}
 
 	s.startedAt = time.Now()
-	s.dm.SetConnectionRequestURL(s.server.url())
+	crUrl := s.server.url()
+	if s.serverCrHost != "" {
+		crUrl = fmt.Sprintf("http://%s:%d", s.serverCrHost, s.serverPort)
+	}
+	s.dm.SetConnectionRequestURL(crUrl)
 	s.SetPeriodicInformInterval(Config.InformInterval)
 	go s.periodicInform(ctx)
 

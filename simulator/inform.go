@@ -33,7 +33,7 @@ func (s *Simulator) periodicInform(ctx context.Context) {
 		}
 
 		delay := time.Until(s.nextInformTime())
-		log.Info().
+		log.Debug().
 			Str("delay", delay.Truncate(time.Millisecond).String()).
 			Msg("Scheduling next Inform request")
 
@@ -96,7 +96,7 @@ func (s *Simulator) startSession(ctx context.Context, handler sessionHandler) {
 	}()
 	s.metrics.ConcurrentInforms.Inc()
 
-	log.Info().Str("acs_url", Config.ACSURL).Msg("Connecting to ACS")
+	log.Debug().Str("acs_url", Config.ACSURL).Msg("Connecting to ACS")
 	client, closeFn, err := newClient(u.Hostname(), tcpPort(u))
 	s.metrics.ConnectionLatency.Observe(float64(time.Since(connectionStartTime).Milliseconds()))
 	if err != nil {
@@ -112,7 +112,7 @@ func (s *Simulator) startSession(ctx context.Context, handler sessionHandler) {
 
 // nolint:gocyclo
 func (s *Simulator) informHandler(ctx context.Context, client *http.Client) {
-	log.Info().Msg("Starting inform")
+	log.Debug().Msg("Starting inform")
 	informEnv := s.makeInformEnvelope()
 	resp, err := s.request(ctx, client, informEnv)
 	if err != nil {
@@ -164,7 +164,7 @@ pendingRequests:
 			return
 		}
 		if acsRequestEnv == nil {
-			log.Info().Msg("Got empty response from ACS, inform finished")
+			log.Debug().Msg("Got empty response from ACS, inform finished")
 			break
 		}
 
@@ -264,7 +264,7 @@ func (s *Simulator) request(ctx context.Context, client *http.Client, env *rpc.E
 		logPrettyXML("Request from ACS", b)
 		buf = bytes.NewBuffer(b)
 	} else {
-		log.Info().Msg("Sending empty POST request")
+		log.Debug().Msg("Sending empty POST request")
 	}
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodPost, Config.ACSURL, buf)
@@ -314,7 +314,7 @@ func (s *Simulator) processTasks() {
 }
 
 func (s *Simulator) debugEnvelope(env *rpc.EnvelopeEncoder) {
-	logger := log.Info().Str("method", env.Method())
+	logger := log.Debug().Str("method", env.Method())
 	if env.Body.Inform != nil {
 		logger.Strs("events", s.dm.PendingEvents())
 	}

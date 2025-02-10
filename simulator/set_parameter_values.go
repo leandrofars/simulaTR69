@@ -8,7 +8,7 @@ import (
 )
 
 func (s *Simulator) handleSetParameterValues(envID string, r *rpc.SetParameterValuesRequest) *rpc.EnvelopeEncoder {
-	log.Info().Str("method", "SetParameterValues").Msg("Received message")
+	log.Debug().Str("method", "SetParameterValues").Msg("Received message")
 	r.Debug()
 	vals := r.ParameterList.ParameterValues
 	params := make([]datamodel.Parameter, 0, len(vals))

@@ -27,6 +27,10 @@ var Config struct {
 	// resolved.
 	Host string `env:"API_HOST"`
 
+	// ConnectionRequestHost is the host name or IP address that the simulator
+	// informs to the ACS.
+	ConnReqHost string `env:"CR_HOST"`
+
 	// Port defines the port number used by the simulator to accept connection
 	// requests.
 	ConnectionRequestPort uint16 `env:"API_PORT, default=7547"`
