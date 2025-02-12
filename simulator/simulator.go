@@ -67,11 +67,13 @@ func NewWithMetrics(dm *datamodel.DataModel, m *metrics.Metrics) *Simulator {
 
 // Start starts the simulator and initiates an inform session.
 func (s *Simulator) Start(ctx context.Context) error {
+	var port int
 	if Config.ConnReqEnableHTTP {
-		srv, err := newHTTPServer(s.handleConnectionRequest)
+		srv, httpPort, err := newHTTPServer(s.handleConnectionRequest)
 		if err != nil {
 			return fmt.Errorf("start connection request server: %w", err)
 		}
+		port = httpPort
 		s.server = srv
 		log.Debug().Str("server_url", s.server.url()).Msg("Started connection request server")
 	}
@@ -79,7 +81,7 @@ func (s *Simulator) Start(ctx context.Context) error {
 	s.startedAt = time.Now()
 	crUrl := s.server.url()
 	if s.serverCrHost != "" {
-		crUrl = fmt.Sprintf("http://%s:%d", s.serverCrHost, s.serverPort)
+		crUrl = fmt.Sprintf("http://%s:%d/cwmp", s.serverCrHost, port)
 	}
 	s.dm.SetConnectionRequestURL(crUrl)
 	s.SetPeriodicInformInterval(Config.InformInterval)

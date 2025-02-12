@@ -77,7 +77,7 @@ func main() {
 
 			<-ctx.Done()
 
-			log.Info().Str("id", id.SerialNumber).Msg("Stopping simulated device")
+			log.Debug().Str("id", id.SerialNumber).Msg("Stopping simulated device")
 			srv.Stop(ctx)
 			wg.Done()
 
