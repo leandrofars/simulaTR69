@@ -88,6 +88,9 @@ var Config struct {
 
 	// SimNumber defines how many simulators should be started.
 	SimNumber int `env:"SIM_NUMBER, default=1"`
+
+	// DevicePerSecond defines how many devices should be simulated per second.
+	DevicePerSecond int `env:"DEVICE_PER_SECOND, default=100"`
 }
 
 // ErrNoCreds is returned when ACS authentication is configured for digest

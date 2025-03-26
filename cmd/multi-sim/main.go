@@ -41,9 +41,9 @@ func main() {
 	log.Info().Int("sim_number", cfg.SimNumber).Msg("Starting simulators")
 
 	var wg sync.WaitGroup
+	wg.Add(cfg.SimNumber)
 
 	for i := 0; i < cfg.SimNumber; i++ {
-		wg.Add(1)
 
 		log.Debug().Str("file", cfg.StateFilePath).Msg("Loading state")
 		state, err := datamodel.LoadState(cfg.StateFilePath)
@@ -65,6 +65,12 @@ func main() {
 			Str("serial_number", id.SerialNumber).
 			Msg("Simulating device")
 
+		// used when migrating tr-069 device to usp
+		// param, ok := dm.GetValue("Device.LocalAgent.EndpointID")
+		// if ok {
+		// 	dm.SetValue("Device.LocalAgent.EndpointID", param.Value+"-"+strconv.Itoa(i))
+		// }
+
 		srv := simulator.New(dm, simulator.Config.ConnectionRequestPort+uint16(i), simulator.Config.ConnReqHost)
 		go func() {
 			// defer srv.Stop(ctx)
@@ -84,6 +90,9 @@ func main() {
 			// TODO: should we stop the server ? srv.Stop(ctx)
 		}()
 
+		if i > 0 && i%cfg.DevicePerSecond == 0 {
+			time.Sleep(time.Second)
+		}
 	}
 
 	ch := make(chan os.Signal, 1)
