@@ -359,11 +359,18 @@ func newClient(host, port string) (http.Client, func() error, error) {
 		Transport: tr,
 		Timeout:   Config.RequestTimeout,
 	}
-	if Config.ACSAuth == AuthDigest {
+	switch Config.ACSAuth {
+	case AuthDigest:
 		client.Transport = &digest.Transport{
 			Transport: tr,
 			Username:  Config.ACSUsername,
 			Password:  Config.ACSPassword,
+		}
+	case AuthBasic:
+		client.Transport = &basicAuthTransport{
+			transport: tr,
+			username:  Config.ACSUsername,
+			password:  Config.ACSPassword,
 		}
 	}
 
@@ -378,6 +385,23 @@ func tcpPort(u *url.URL) string {
 		return "443"
 	}
 	return "80"
+}
+
+// basicAuthTransport is an HTTP transport that adds basic authentication to
+// each request.
+type basicAuthTransport struct {
+	transport http.RoundTripper
+	username  string
+	password  string
+}
+
+func (t *basicAuthTransport) RoundTrip(r *http.Request) (*http.Response, error) {
+	r.SetBasicAuth(t.username, t.password)
+	resp, err := t.transport.RoundTrip(r)
+	if err != nil {
+		return nil, fmt.Errorf("basic auth round trip: %w", err)
+	}
+	return resp, nil
 }
 
 // calcInformTime calculates the time of the next inform based on all relevant
